@@ -1,144 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Resume</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
 
-    <body>
-    <ul>
-        <img src="./assets/images/Abbas.jpg" height="200" alt="candidate picture">
-        <h1>Abbas Si Ahmed Resume</h1>
-        <li>
-            <h2>Professional Summary</h2>
-            <p>
-                Detailed oriented IT Professional with 10 years of experience in software testing industry with strong
-                experience in automation. Excellent communication and problem solving skills. Good experience working in
-                an agile environment. Solid experience working with onshore and offshore teams. Act with integrity and
-                provide honest and realistic opinion. I always seek diverse perspective and fresh alternatives with
-                respect and leadership. Great team player, and put time an effort to help others. Goal oriented with
-                strong track record of achieving results. Good understanding of AWS Cloud, CICD, and AI technologies.
-            </p>
-        </li>
-        <hr/>
-        <li>
-            <h2>Eduation</h2>
-            <p>
-                School: Central Connecticut State University, New Britain, CT<br />
-                Degree: Bachelor of Science in Networking Technologies<br />
-                From: 08/2008 to 12/2012
-            </p>
-        </li>
-        <hr/>
-        <li>
-            <h2>Professional development</h2>
-            <ul>
-                <li>Scrum Master and Product Owner</li>
-                <li>AWS Technical Essentials</li>
-                <li>Full-Stack Web Developer – In progress</li>
-            </ul>
-        </li>
-        <hr/>
+<body>
+    <div class="candidate-picture">
+        <img src="./assets/images/Abbas.jpg" alt="candidate picture">
+    </div>
 
-        <li>
-            <h2>Work Experience</h2>
-            <p>
+
+    <div>
+       
+        <h1 id="candidate_name">Abbas Si Ahmed Resume</h1>
+      
+        <ul>
+            
+            <li>
+                <h2>Professional Summary</h2>
+                <p>
+                    Detailed oriented IT Professional with 10 years of experience in software testing industry with
+                    strong
+                    experience in automation. Excellent communication and problem solving skills. Good experience
+                    working in
+                    an agile environment. Solid experience working with onshore and offshore teams. Act with integrity
+                    and
+                    provide honest and realistic opinion. I always seek diverse perspective and fresh alternatives with
+                    respect and leadership. Great team player, and put time an effort to help others. Goal oriented with
+                    strong track record of achieving results. Good understanding of AWS Cloud, CICD, and AI
+                    technologies.
+                </p>
+            </li>
+            <hr />
+            <li>
+                <h2>Eduation</h2>
+                <p id="education-background">
+                    School: Central Connecticut State University, New Britain, CT<br />
+                    Degree: Bachelor of Science in Networking Technologies<br />
+                    From: 08/2008 to 12/2012
+                </p>
+            </li>
+            <hr />
+            <li>
+                <h2>Professional development</h2>
+                <ul>
+                    <li>Scrum Master and Product Owner</li>
+                    <li>AWS Technical Essentials</li>
+                    <li>Full-Stack Web Developer – In progress</li>
+                </ul>
+            </li>
+            <hr />
+
+            <li>
+                <h2>Work Experience</h2>
+                <p>
                 <h4>01/2019 to 09/2024</h4>
                 <h4>IT QA Technical Manager - Automation Engineer</h4>
                 <h4>Massachusetts Mutual Life Insurance Co - Springfield, MA</h4>
-            </p>
-            <ul>
-                <li>Created Gherkin scenarios from business requirements and acceptance criteria</li>
-                <li>Developed automation test scripts for the application under test using BDD Framework </li>
-                <li>Performed PR and code reviews, provided feedback and suggestions</li>
-                <li>Worked on regression test suite execution, analysis and reporting</li>
-                <li>Responsible on automation backlog refinement and prioritization</li>
-                <li>Lead and tracked automation efforts within the automation team, and assigned work to the right team members</li>
-                <li>Provided quarterly automation statistics and reporting to management</li>
-                <li>Participated in all Agile ceremonies (PI Planning, Product Refinement, Sprint planning, and Retrospectives)</li>
-                <li>Provided automation support, direction, and automation strategy</li>  
-                <li>Provided training to new and existing resources (Automation Framework, Gherkin, GitHub, Git, Jenkins, and Jira)</li>
-                <li>Created training material in different format, digital and live presentation</li>
-                <li>Worked as a Jenkins Admin including Jenkins installation and configuration, Jenkins access</li>
-                <li>Involved in CICD pipeline creation and test orchestration in Jenkins</li>
-            </ul>
+                </p>
+                <ul>
+                    <li>Created Gherkin scenarios from business requirements and acceptance criteria</li>
+                    <li>Developed automation test scripts for the application under test using BDD Framework </li>
+                    <li>Performed PR and code reviews, provided feedback and suggestions</li>
+                    <li>Worked on regression test suite execution, analysis and reporting</li>
+                    <li>Responsible on automation backlog refinement and prioritization</li>
+                    <li>Lead and tracked automation efforts within the automation team, and assigned work to the right
+                        team members</li>
+                    <li>Provided quarterly automation statistics and reporting to management</li>
+                    <li>Participated in all Agile ceremonies (PI Planning, Product Refinement, Sprint planning, and
+                        Retrospectives)</li>
+                    <li>Provided automation support, direction, and automation strategy</li>
+                    <li>Provided training to new and existing resources (Automation Framework, Gherkin, GitHub, Git,
+                        Jenkins, and Jira)</li>
+                    <li>Created training material in different format, digital and live presentation</li>
+                    <li>Worked as a Jenkins Admin including Jenkins installation and configuration, Jenkins access</li>
+                    <li>Involved in CICD pipeline creation and test orchestration in Jenkins</li>
+                </ul>
 
-            <p>
+                <p>
                 <h4>07/2018 to 12/2018</h4>
                 <h4>Senior System Engineer I</h4>
                 <h4>Geico - Chevy Chase, MD</h4>
-            </p>
-            <ul>
-                <li>Worked on non-functional requirement gathering by working closely with the business analysts, developers, and functional testing teams</li>
-                <li>Developed performance test strategies, and test plans</li>
-                <li>LoadRunner script development, script enhancement, and validation</li>
-                <li>Worked very closely with the SMEs to determine test data and data dependencies needed for the load test</li>
-                <li>Responsible for Load test scenario definition, configuration and load test distribution</li>
-                <li>Performance test Execution, Analysis and Reporting using LoadRunner</li>
-                <li>Performed  Soap and Rest Web services testing using Ready API</li> 
-                <li>Designed and executed web services load testing using Ready API</li>       
-            </ul>
+                </p>
+                <ul>
+                    <li>Worked on non-functional requirement gathering by working closely with the business analysts,
+                        developers, and functional testing teams</li>
+                    <li>Developed performance test strategies, and test plans</li>
+                    <li>LoadRunner script development, script enhancement, and validation</li>
+                    <li>Worked very closely with the SMEs to determine test data and data dependencies needed for the
+                        load test</li>
+                    <li>Responsible for Load test scenario definition, configuration and load test distribution</li>
+                    <li>Performance test Execution, Analysis and Reporting using LoadRunner</li>
+                    <li>Performed Soap and Rest Web services testing using Ready API</li>
+                    <li>Designed and executed web services load testing using Ready API</li>
+                </ul>
 
-            <p>
+                <p>
                 <h4>05/2014 to 06/2018</h4>
                 <h4>System Engineer I</h4>
                 <h4>First Citizen Bank - Raleigh, NC</h4>
-            </p>
-            <ul>
-                <li>Involved in test environment creation and configuration</li>
-                <li>Performed Data staging, and testing environment readiness</li>
-                <li>Non-functional requirement gathering by working closely with the business analysts, developers, and   functional testing teams</li>
-                <li>LoadRunner script development, script enhancement, and validation</li>
-                <li>Responsible for Load test scenario definition, configuration and load test distribution</li>
-                <li>Responsible on Performance test Execution, Analysis and Reporting</li>
-            </ul>
+                </p>
+                <ul>
+                    <li>Involved in test environment creation and configuration</li>
+                    <li>Performed Data staging, and testing environment readiness</li>
+                    <li>Non-functional requirement gathering by working closely with the business analysts, developers,
+                        and functional testing teams</li>
+                    <li>LoadRunner script development, script enhancement, and validation</li>
+                    <li>Responsible for Load test scenario definition, configuration and load test distribution</li>
+                    <li>Responsible on Performance test Execution, Analysis and Reporting</li>
+                </ul>
 
-        </li>
+            </li>
 
-        <li>
-            <hr/>
-            <h2>Skills</h2>
-            <ul>
-                <li>Agile Methodology</li>
-                <li>Jira</li>
-                <li>Jenkins</li>
-                <li>GitHub</li>
-                <li>Git</li>
-                <li>Java</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Selenium</li>
-                <li>Ruby on rails</li>
-                <li>Gherkin</li>
-                <li>API Testing, Rest and Soap services</li>
-            </ul>
-        </li>
+            <li>
+                <hr />
+                <h2>Skills</h2>
+                <ul>
+                    <li>Agile Methodology</li>
+                    <li>Jira</li>
+                    <li>Jenkins</li>
+                    <li>GitHub</li>
+                    <li>Git</li>
+                    <li>Java</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Selenium</li>
+                    <li>Ruby on rails</li>
+                    <li>Gherkin</li>
+                    <li>API Testing, Rest and Soap services</li>
+                </ul>
+            </li>
 
-        <li>
-            <hr/>
-            <h2>Awards and Certifications</h2>
-            <ul>
-                <li>Scaled Agile, Leading Safe Certification</li>
-            </ul>
-        </li>
-        <hr/>
-        <li>
-            <h2>Others</h2>
-            <ul>
-                <li><a href="./public/about.html">About me</a> <br/></li>  
-                <li><a href="./public/contact.html">Contact Details</a></li>
-            </ul>
-        
-        </li>
-    </ul>
+            <li>
+                <hr />
+                <h2>Awards and Certifications</h2>
+                <ul>
+                    <li>Scaled Agile, Leading Safe Certification</li>
+                </ul>
+            </li>
+            <hr />
+            <li>
+                <h2>Others</h2>
+                <ul>
+                    <li><a href="./public/about.html">About me</a> <br /></li>
+                    <li><a href="./public/contact.html">Contact Details</a></li>
+                </ul>
 
-    
+            </li>
+        </ul>
+
+    </div>
     <footer>
         <p>© 2024 Abbas Si Ahmed. All rights reserved.</p>
     </footer>
-    </body> 
+</body>
 
 </html>
